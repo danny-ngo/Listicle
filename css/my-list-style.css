@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  background-color: #333333;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: white;
+  width: 780px;
+  text-align: center;
+}
+
+.author-profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#author-pic img {
+  align-self: center;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  border: 1px solid white;
+}
+
+.author-profile h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #f2f2f2;
+  text-align: center;
+  line-height: 24px;
+  margin: 0;
+}
+
+#author-name h1 {
+  font-weight: bold;
+}
+
+#publish-date h1 {
+  font-weight: normal;
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.listicle-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-container {
+  width: 66.67%;
+  position: relative;
+}
+
+.listicle-item {
+  padding: 60px 0px;
+}
+
+.number-container {
+  position: absolute;
+  right: 100%;
+}
+
+.item-number h1 {
+  position:absolute;
+  right: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #e6e6e6;
+  margin: 0;
+}
+
+.item-heading h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.item-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #42b4d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0px;
+  padding-bottom: 20px;
+}
