@@ -1,4 +1,10 @@
-# HW1: Listicle
+# Listicle
+Article webpages that have a list structure.
+This is assignment 1 of Stanford University's CSX-193.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+## HW1: Listicle
 
 Please complete two webpages:
 - Modify **listicle.html** and **css/listicle-style.css** to replicate the "On-campus Beverages" article that we provided as accurately as you can.
